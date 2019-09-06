@@ -9,3 +9,53 @@ p {
   bakground-color: red;
   font-weight: bold;
 }
+
+header {
+  color: gray;
+  background-color: blue;
+  font-weight: bold;
+}
+
+footer {
+  color: magenta;
+  font-weight: bold;
+  background-color: magenta;
+}
+
+figcaption {
+  color:red;
+  background-color: green;
+  font-weight: bold;
+}
+
+body {
+  background-color: yellow;
+}
+
+a {
+  color: blue;
+  font-weight: bold;
+  background-color: green;
+}
+
+nav {
+  color: magenta;
+  font-weight: bold;
+  background-color: green;
+}
+
+.important {
+  font-weight: bold;
+  background-color: white;
+  color: gray;
+}
+
+.green-text {
+  color: green;
+  font-weight: bold;
+}
+
+.pink {
+  color: pink;
+  background-color: white;
+}
