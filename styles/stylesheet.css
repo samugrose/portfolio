@@ -1,0 +1,11 @@
+h1 {
+  color: hsla(200, 100%, 100%, .5);
+  background-color: tomato;
+  font-weight: bold;
+}
+
+p {
+  color: magenta
+  bakground-color: red;
+  font-weight: bold;
+}
