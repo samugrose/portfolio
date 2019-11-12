@@ -2,8 +2,10 @@
 
 h1 {
   font-weight: bold;
-  font-size: 20;
+  font-size: 20px;
 }
+
+
 
 figure {
   -webkit-margin-start: 0px;
@@ -56,6 +58,25 @@ a {
 
 nav {
   font-weight: bold;
+}
+
+nav a:visited {
+  text-decoration-color: magenta;
+}
+
+nav a:hover {
+  text-decoration-color: blue;
+  transition: text-decoration-color 4s;
+}
+
+header:hover {
+  font-size: 20px;
+  transition: font-size 4s;
+}
+
+footer a:hover {
+  font-size: 40px;
+  transition: font-size 5s 2s;
 }
 
 .important {
