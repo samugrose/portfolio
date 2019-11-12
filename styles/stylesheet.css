@@ -1,61 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya:400|Open+Sans:400');
+
 h1 {
-  color: hsla(200, 100%, 100%, .5);
-  background-color: tomato;
   font-weight: bold;
+  font-size: 20;
+}
+
+figure {
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+.box-1 {
+ padding-left: 120px;
+ padding-right: 120px;
+}
+
+.box-2 {
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
 p {
-  color: magenta
-  bakground-color: red;
   font-weight: bold;
 }
 
 header {
-  color: gray;
-  background-color: blue;
   font-weight: bold;
 }
 
 footer {
-  color: magenta;
-  font-weight: bold;
-  background-color: magenta;
+  display: flex;
+  justify-content: center;
+
 }
 
 figcaption {
-  color:red;
-  background-color: green;
   font-weight: bold;
 }
 
 body {
-  background-color: yellow;
+
+  font-family: Alegreya;
+  font-weight: 700;
 }
 
 a {
-  color: blue;
   font-weight: bold;
-  background-color: green;
 }
 
 nav {
-  color: magenta;
   font-weight: bold;
-  background-color: green;
 }
 
 .important {
   font-weight: bold;
-  background-color: white;
-  color: gray;
 }
 
 .green-text {
-  color: green;
   font-weight: bold;
 }
 
 .pink {
-  color: pink;
-  background-color: white;
+
 }
