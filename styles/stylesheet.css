@@ -56,6 +56,10 @@ a {
   font-weight: bold;
 }
 
+a:hover {
+  text-decoration-color: cyan;
+}
+
 nav {
   font-weight: bold;
 }
@@ -65,7 +69,7 @@ nav a:visited {
 }
 
 nav a:hover {
-  text-decoration-color: blue;
+  text-decoration-color: cyan;
   transition: text-decoration-color 4s;
 }
 
@@ -83,10 +87,24 @@ footer a:hover {
   font-weight: bold;
 }
 
-.green-text {
-  font-weight: bold;
+button, input, select, textarea {
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  margin: 0.5rem;
 }
 
-.pink {
+input[type=submit] {
+  width: 5%;
+  background-color: cyan;
+}
 
+input[type=password]:focus {
+  background-color: cyan;
+  outline: none;
+}
+
+input, textarea {
+  border-radius: 5px;
 }
